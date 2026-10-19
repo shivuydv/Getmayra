@@ -1,0 +1,6 @@
+{
+  "name": "MYRA",
+  "description": "Expressive Anime AI Companion & Smart Assistant with live Gemini and ChatGPT support, ElevenLabs voice, and full device app automation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,20 @@
+# Baseline Profile for Maya / MYRA
+# Optimizes app startup, Compose rendering, voice recognition, and services
+Lcom/example/MainActivity;
+Lcom/example/MainActivity$onCreate$1;
+Lcom/example/MyraUiKt;
+Lcom/example/MyraCharacterKt;
+Lcom/example/MyraHudPanelsKt;
+Lcom/example/MyraVoiceController;
+Lcom/example/MyraVoiceState;
+Lcom/example/MyraAiEngine;
+Lcom/example/MyraCommandRouter;
+Lcom/example/MyraAppAutomation;
+Lcom/example/MayaWallpaperService;
+Lcom/example/MayaWallpaperService$MayaWallpaperEngine;
+Lcom/example/MayaAccessibilityService;
+Lcom/example/MayaSessionService;
+Lcom/example/MayaVisionScanner;
+Lcom/example/MayaSirenPlayer;
+Lcom/example/AndroidSystemMonitor;
+Lcom/example/MyraPreferences;

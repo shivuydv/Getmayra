@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MYRA</string>
+    <string name="wallpaper_label">Maya Live Companion</string>
+    <string name="wallpaper_description">Maya herself on your home screen. She breathes, looks up when you start talking to her, and reacts when you tap her. Pauses completely whenever the home screen is covered.</string>
+    <string name="accessibility_service_label">Maya WhatsApp Reader &amp; App Controller</string>
+    <string name="accessibility_service_description">Maya uses this to control apps for you — like sending WhatsApp messages, making WhatsApp calls, playing YouTube videos and reading your screen when you ask her to. Maya only acts on your voice commands.</string>
+    <string name="notification_channel_name">Maya Session</string>
+    <string name="notification_listener_label">Maya WhatsApp Reader</string>
+    <string name="interaction_service_description">Maya Voice Interaction Assistant</string>
+</resources>

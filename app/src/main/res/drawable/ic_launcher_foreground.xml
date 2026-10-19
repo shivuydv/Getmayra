@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer sound aura ring -->
+    <path
+        android:pathData="M54,54m-26,0a26,26 0 1,0 52,0a26,26 0 1,0 -52,0"
+        android:strokeWidth="1.8"
+        android:strokeColor="#38BDF8"
+        android:strokeAlpha="0.35"
+        android:fillColor="#00000000" />
+
+    <!-- Pulsing soundwave arcs -->
+    <path
+        android:pathData="M31,45 A25,25 0 0,0 31,63"
+        android:strokeWidth="3.2"
+        android:strokeColor="#38BDF8"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M77,45 A25,25 0 0,1 77,63"
+        android:strokeWidth="3.2"
+        android:strokeColor="#818CF8"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Secondary inner soundwave arcs -->
+    <path
+        android:pathData="M37,48 A18,18 0 0,0 37,60"
+        android:strokeWidth="2.8"
+        android:strokeColor="#67E8F9"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M71,48 A18,18 0 0,1 71,60"
+        android:strokeWidth="2.8"
+        android:strokeColor="#A78BFA"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Central Glowing Voice Orb -->
+    <path android:pathData="M54,54m-14,0a14,14 0 1,0 28,0a14,14 0 1,0 -28,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="42"
+                android:startY="42"
+                android:endX="66"
+                android:endY="66"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#38BDF8" />
+                <item android:offset="0.55" android:color="#6366F1" />
+                <item android:offset="1.0" android:color="#A855F7" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Center Stylized 'M' / AI sound core -->
+    <path
+        android:pathData="M48,58 L48,51 L54,56 L60,51 L60,58"
+        android:strokeWidth="2.4"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000" />
+
+    <!-- Sparkle core at top of M -->
+    <path
+        android:pathData="M54,47.5m-1.5,0a1.5,1.5 0 1,0 3,0a1.5,1.5 0 1,0 -3,0"
+        android:fillColor="#FFFFFF" />
+
+</vector>
